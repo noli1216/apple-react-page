@@ -1,0 +1,34 @@
+.links-wrapper-s {
+  padding: 15px 0;
+}
+
+.links-wrapper-s ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.links-wrapper-s ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  border-radius: 40px;
+  background-color: #06c;
+  padding: 8px;
+}
+
+.links-wrapper-s ul li a:hover {
+  color: #06c;
+  background-color: white;
+  border: 1px solid #06c;
+}
+
+.links-wrapper-s ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.links-wrapper-s ul {
+  list-style: none;
+}
